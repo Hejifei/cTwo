@@ -1,0 +1,16 @@
+// Background color
+@include bg-variant('.bg-primary', $brand-primary);
+@include bg-variant('.bg-secondary', $brand-secondary);
+@include bg-variant('.bg-info', $brand-info);
+@include bg-variant('.bg-success', $brand-success);
+@include bg-variant('.bg-warning', $brand-warning);
+@include bg-variant('.bg-danger', $brand-danger);
+@include bg-variant('.bg-black', $black);
+@include bg-variant('.bg-gray-lighter2', $gray-lighter2);
+@include bg-variant('.bg-white', $white);
+@include bg-variant('.bg-blue-lighter', $blue-lighter);
+@include bg-variant('.bg-table-line', $table-bg);
+@include bg-variant('.bg-default-green', $green-default);
+@include bg-variant('.bg-default-green-dark', $green-default-dark);
+@include bg-variant('.default-bg', $gray-default);
+@include bg-variant('.default-bg-lighter', $gray-default-lighter);

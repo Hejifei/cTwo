@@ -1,0 +1,39 @@
+// 修改vant默认样式
+
+//primary按钮颜色
+.van-button--primary{
+  background-color: $green-default-dark !important;
+  border-color: $green-default-dark !important;
+}
+
+// 弹窗
+.van-dialog__message--has-title{
+  color: #333 !important;
+  text-align: center !important;
+}
+.van-dialog__confirm{
+  color: #333 !important;
+}
+
+//small 复选框
+.van-checkbox.small{
+  .van-icon{
+    width: 14px !important;
+    height: 14px !important;
+    line-height: 14px !important;
+    font-size: 10px !important;
+  }
+}
+.van-picker__toolbar{
+  font-size: 16px !important;
+}
+.van-cell.orderDetail{
+  .van-cell__title{
+    font-size: 14px !important;
+    color: #232323 !important;
+  }
+  .van-cell__value{
+    font-size: 14px !important;
+    color: #232323 !important;
+  }
+}

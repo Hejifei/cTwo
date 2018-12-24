@@ -1,0 +1,5 @@
+@for $size from 0 through 20 {
+  .opacity-#{$size} {
+    opacity: $size / 20 !important;
+  }
+}

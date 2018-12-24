@@ -1,0 +1,5 @@
+export const PORT_MIMS = '9180'
+export const PORT_ORDERS = '9181'
+export const PORT_SPUMS = '9183'
+export const PORT_VIP = '9188'
+export const PORT_CHANNEL = '9189'

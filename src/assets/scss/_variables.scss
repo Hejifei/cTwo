@@ -1,0 +1,114 @@
+$black:               #000 !default;
+$black-light:         #333 !default;
+$black-default:       #141414 !default;
+$black-default-tiens: #232323 !default;
+$gray:                #A0A0A0 !default;
+$gray-dark:           #747474 !default;
+$gray-light:          #ccc !default;
+$gray-lighter:        #e3e3e3 !default;
+$gray-lighter2:       #e9ecf3 !default;
+$whitesmoke:          #f5f5f5 !default;
+$white:               #fff !default;
+$blue-lighter:        #edf7ff !default;
+$gray-default:        #f2f2f2 !default;
+$gray-default-lighter:#F4F4F4 !default;
+
+$brand-primary:       #45AEFF !default;
+$brand-secondary:     #5a5a5a !default;
+$brand-info:          #4e97f4 !default;
+$brand-success:       #1fc630 !default;
+$brand-warning:       #ff771d !default;
+$brand-danger:        #ff5253 !default;
+$table-bg:            #f9fafe !default;
+$green-default:       #7ec500 !default;
+$green-default-dark:  rgb(0, 153, 67) !default;
+$red:                 #e23434 !default;
+
+$body-bg:       #edf5f8 !default;
+$body-color:    $gray-dark !default;
+
+// Borders
+$border-color:        #dfe3ec;
+
+$border-radius:       .3rem;
+$border-width:        1px;
+$border-width-sm:     $border-width;
+$border-width-md:     2px;
+$border-width-lg:     4px;
+$border-width-xl:     6px;
+
+// Sizing
+$per-size:            10px;
+
+// Spacing
+$spacer:              2px;
+
+
+// Typography
+$border-width: 1px !default;
+
+$font-size-base: 1rem !default;
+
+$font-weight-normal: normal !default;
+$font-weight-bold: bold !default;
+
+$small-font-size: 80% !default;
+
+$font-size-h1: 2.5rem !default;
+$font-size-h2: 2rem !default;
+$font-size-h3: 1.75rem !default;
+$font-size-h4: 1.5rem !default;
+$font-size-h5: 1.25rem !default;
+$font-size-h6: 1rem !default;
+
+$headings-margin-bottom: ($spacer / 2) !default;
+$headings-font-family:   inherit !default;
+$headings-font-weight:   500 !default;
+$headings-line-height:   1.1 !default;
+$headings-color:         inherit !default;
+
+$display1-size: 6rem !default;
+$display2-size: 5.5rem !default;
+$display3-size: 4.5rem !default;
+$display4-size: 3.5rem !default;
+
+$display1-weight:     300 !default;
+$display2-weight:     300 !default;
+$display3-weight:     300 !default;
+$display4-weight:     300 !default;
+$display-line-height: $headings-line-height !default;
+
+$lead-font-size:   1.25rem !default;
+$lead-font-weight: 300 !default;
+
+$blockquote-small-color:  $gray-light !default;
+$blockquote-font-size:    ($font-size-base * 1.25) !default;
+$blockquote-border-color: $gray-lighter !default;
+$blockquote-border-width: .25rem !default;
+
+$hr-border-color: rgba($black,.1) !default;
+$hr-border-width: $border-width !default;
+
+$mark-padding:  .2em !default;
+$mark-bg:       $whitesmoke !default;;
+
+$list-inline-padding: $spacer !default;
+
+// Layouts
+$fixed-zindex:        1006;
+$header-height:       48px;
+
+$z-height-0: none;
+$z-height-1: 0 1px 3px 0 rgba(0,0,0,.12);
+$z-height-2: 0 3px 8px 0 rgba(0,0,0,.2);
+$z-height-3: 0 8px 14px 0 rgba(0,0,0,.38);
+$z-height-4: 0 14px 19px 0 rgba(0,0,0,.38);
+$z-height-5: 0 20px 24px 0 rgba(0,0,0,.38);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 768px,
+  md: 992px,
+  lg: 1200px,
+  xl: 1920px
+) !default;
